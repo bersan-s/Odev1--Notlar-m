@@ -1,0 +1,20 @@
+﻿using System;
+
+namespace odev2
+{
+    class MainClass
+    {
+        static void Main(string[] args)
+        {
+            string sehir = "İzmir";
+            string yemek = "bomba ";
+            var fiyat = 5;
+            var hava = 25.5f;
+            Console.Write(sehir + "\'de " + yemek+ " yedim ve tanesi "+fiyat+" liraydı ve hava sıcaklığı "+hava+" dereceydi.") ;
+            
+
+            Console.ReadLine();
+
+        }
+    }
+}
